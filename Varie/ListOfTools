@@ -1,0 +1,1391 @@
+List of hacking tools
+
+o Sensepost Footprint Tools
+o Big Brother
+o BiLE Suite
+o Alchemy Network Tool
+o Advanced Administrative Tool
+o My IP Suite
+o Wikto Footprinting Tool
+o Whois Lookup
+o Whois
+o SmartWhois
+o ActiveWhois
+o LanWhois
+o CountryWhois
+o WhereIsIP
+o Ip2country
+o CallerIP
+o Web Data Extractor Tool
+o Online Whois Tools
+o What is MyIP
+o DNS Enumerator
+o SpiderFoot
+o Nslookup
+o Extract DNS Information
+• Types of DNS Records
+• Necrosoft Advanced DIG
+o Expired Domains
+o DomainKing
+o Domain Name Analyzer
+o DomainInspect
+o MSR Strider URL Tracer
+o Mozzle Domain Name Pro
+o Domain Research Tool (DRT)
+o Domain Status Reporter
+o Reggie
+o Locate the Network Range
+• ARIN
+• Traceroute
+• 3D Traceroute
+• NeoTrace
+• VisualRoute Trace
+• Path Analyzer Pro
+• Maltego
+• Layer Four Traceroute
+• Prefi x WhoIs widget
+• Touchgraph
+• VisualRoute Mail Tracker
+• eMailTrackerPro
+o 1st E-mail Address Spider
+o Power E-mail Collector Tool
+o GEOSpider
+o Geowhere Footprinting Tool
+o Google Earth
+o Kartoo Search Engine
+o Dogpile (Meta Search Engine)
+o Tool: WebFerret
+o robots.txt
+o WTR - Web The Ripper
+o Website Watcher
+SCANNING
+
+• Angry IP
+• HPing2
+• Ping Sweep
+• Firewalk Tool
+• Firewalk Commands
+• Firewalk Output
+• Nmap
+• Nmap: Scan Methods
+• NMAP Scan Options
+• NMAP Output Format
+• TCP Communication Flags
+• Three Way Handshake
+o Syn Stealth/Half Open Scan
+o Stealth Scan
+o Xmas Scan
+o Fin Scan
+o Null Scan
+o Idle Scan
+o ICMP Echo Scanning/List Scan
+o TCP Connect/Full Open Scan
+o FTP Bounce Scan
+• Ftp Bounce Attack
+o SYN/FIN Scanning Using IP Fragments
+o UDP Scanning
+o Reverse Ident Scanning
+o RPC Scan
+o Window Scan
+o Blaster Scan
+o Portscan Plus, Strobe
+o IPSec Scan
+o Netscan Tools Pro
+o WUPS – UDP Scanner
+o Superscan
+o IPScanner
+o Global Network Inventory Scanner
+o Net Tools Suite Pack
+o Atelier Web Ports Traffi c Analyzer (AWPTA)
+o Atelier Web Security Port Scanner (AWSPS)
+o IPEye
+o ike-scan
+o Infi ltrator Network Security Scanner
+o YAPS: Yet Another Port Scanner
+o Advanced Port Scanner
+o NetworkActiv Scanner
+o NetGadgets
+o P-Ping Tools
+o MegaPing
+o LanSpy
+o HoverIP
+o LANView
+o NetBruteScanner
+o SolarWinds Engineer’s Toolset
+o AUTAPF
+o OstroSoft Internet Tools
+o Advanced IP Scanner
+o Active Network Monitor
+o Advanced Serial Data Logger
+o Advanced Serial Port Monitor
+o WotWeb
+o Antiy Ports
+o Port Detective
+
+Enumeration
+
+
+Overview of System Hacking Cycle
+Techniques for Enumeration
+NetBIOS Null Sessions
+o So What’s the Big Deal
+o DumpSec Tool
+o NetBIOS Enumeration Using Netview
+• Nbtstat Enumeration Tool
+• SuperScan
+• Enum Tool
+o Enumerating User Accounts
+• GetAcct
+o Null Session Countermeasure
+PS Tools
+o PsExec
+o PsFile
+o PsGetSid
+o PsKill
+o PsInfo
+o PsList
+o PsLogged On
+o PsLogList
+o PsPasswd
+o PsService
+o PsShutdown
+o PsSuspend
+o Management Information Base (MIB)
+o SNMPutil Example
+o SolarWinds
+o SNScan
+o Getif SNMP MIB Browser
+o UNIX Enumeration
+o SNMP UNIX Enumeration
+o SNMP Enumeration Countermeasures
+o LDAP enumeration
+o JXplorer
+o LdapMiner
+o Softerra LDAP Browser
+o NTP enumeration
+o SMTP enumeration
+o Smtpscan
+o Web enumeration
+o Asnumber
+o Lynx
+o Windows Active Directory Attack Tool
+o How To Enumerate Web Application Directories in IIS Using DirectoryServices
+
+IP Tools Scanner
+Enumerate Systems Using Default Password
+Tools:
+o NBTScan
+o NetViewX
+o FREENETENUMERATOR
+o Terminal Service Agent
+o TXNDS
+o Unicornscan
+o Amap
+o Netenum
+
+System Hacking
+
+
+Part 1- Cracking Password
+o Password Types
+o Types of Password Attack
+• Passive Online Attack: Wire Sniffi ng
+• Passive Online Attack: Man-in-the-middle and replay attacks
+• Active Online Attack: Password Guessing
+• Offl ine Attacks
+Brute force Attack
+Pre-computed Hashes
+Syllable Attack/Rule-based Attack/ Hybrid attacks
+Distributed network Attack
+Rainbow Attack
+• Non-Technical Attacks
+o PDF Password Cracker
+o Abcom PDF Password Cracker
+o Password Mitigation
+o Permanent Account Lockout-Employee Privilege Abuse
+o Administrator Password Guessing
+• Manual Password cracking Algorithm
+• Automatic Password Cracking Algorithm
+o Performing Automated Password Guessing
+• Tool: NAT
+• Smbbf (SMB Passive Brute Force Tool)
+• SmbCrack Tool: Legion
+• Hacking Tool: LOphtcrack
+o Microsoft Authentication
+• LM, NTLMv1, and NTLMv2
+• NTLM And LM Authentication On The Wire
+• Kerberos Authentication
+• What is LAN Manager Hash?
+LM “Hash” Generation
+LM Hash
+• Salting
+• PWdump2 and Pwdump3
+• Tool: Rainbowcrack
+• Hacking Tool: KerbCrack
+• Hacking Tool: NBTDeputy
+• NetBIOS DoS Attack
+• Hacking Tool: John the Ripper
+o Password Sniffi ng
+o How to Sniff SMB Credentials?
+o SMB Replay Attacks
+o Replay Attack Tool: SMBProxy
+o SMB Signing
+o Tool: LCP
+o Tool: SID&User
+o Tool: Ophcrack 2
+o Tool: Crack
+o Tool: Access PassView
+o Tool: Asterisk Logger
+o Tool: CHAOS Generator
+o Tool: Asterisk Key
+o Password Recovery Tool: MS Access Database Password Decoder
+o Password Cracking Countermeasures
+o Do Not Store LAN Manager Hash in SAM Database
+o LM Hash Backward Compatibility
+o How to Disable LM HASH
+o Password Brute-Force Estimate Tool
+o Syskey Utility
+o AccountAudit
+Part2-Escalating Privileges
+o Privilege Escalation
+o Cracking NT/2000 passwords
+o Active@ Password Changer
+• Change Recovery Console Password - Method 1
+• Change Recovery Console Password - Method 2
+o Privilege Escalation Tool: x.exe
+Part3-Executing applications
+o Tool: psexec
+o Tool: remoexec
+o Ras N Map
+o Tool: Alchemy Remote Executor
+o Emsa FlexInfo Pro
+o Keystroke Loggers
+o E-mail Keylogger
+o Revealer Keylogger Pro
+o Handy Keylogger
+o Ardamax Keylogger
+o Powered Keylogger
+o Quick Keylogger
+o Spy-Keylogger
+o Perfect Keylogger
+o Invisible Keylogger
+o Actual Spy
+o SpyToctor FTP Keylogger
+o IKS Software Keylogger
+o Ghost Keylogger
+o Hacking Tool: Hardware Key Logger
+o What is Spyware?
+o Spyware: Spector
+o Remote Spy
+o Spy Tech Spy Agent
+o 007 Spy Software
+o Spy Buddy
+o Ace Spy
+o Keystroke Spy
+o Activity Monitor
+o Hacking Tool: eBlaster
+o Stealth Voice Recorder
+o Stealth Keylogger
+o Stealth Website Logger
+o Digi Watcher Video Surveillance
+o Desktop Spy Screen Capture Program
+o Telephone Spy
+o Print Monitor Spy Tool
+o Stealth E-Mail Redirector
+o Spy Software: Wiretap Professional
+o Spy Software: FlexiSpy
+o PC PhoneHome
+o Keylogger Countermeasures
+o Anti Keylogger
+
+
+Trojans and Backdoors
+
+
+Effect on Business
+What is a Trojan?
+o Overt and Covert Channels
+o Working of Trojans
+o Different Types of Trojans
+Remote Access Trojans
+Data-Sending Trojans
+Destructive Trojans
+Denial-of-Service (DoS) Attack Trojans
+Proxy Trojans
+FTP Trojans
+
+Security Software Disablers
+o What do Trojan Creators Look for?
+o Different Ways a Trojan can Get into a System
+Indications of a Trojan Attack
+Ports Used by Trojans
+o How to Determine which Ports are Listening
+Trojans
+o Trojan: iCmd
+o MoSucker Trojan
+o Proxy Server Trojan
+o SARS Trojan Notifi cation
+o Wrappers
+o Wrapper Covert Program
+o Wrapping Tools
+o One Exe Maker / YAB / Pretator Wrappers
+o Packaging Tool: WordPad
+o RemoteByMail
+o Tool: Icon Plus
+o Defacing Application: Restorator
+o Tetris
+o HTTP Trojans
+o Trojan Attack through Http
+o HTTP Trojan (HTTP RAT)
+o Shttpd Trojan - HTTP Server
+o Reverse Connecting Trojans
+o Nuclear RAT Trojan (Reverse Connecting)
+o Tool: BadLuck Destructive Trojan
+o ICMP Tunneling
+o ICMP Backdoor Trojan
+o Microsoft Network Hacked by QAZ Trojan
+o Backdoor.Theef (AVP)
+o T2W (TrojanToWorm)
+o Biorante RAT
+o DownTroj
+o Turkojan
+o Trojan.Satellite-RAT
+o Yakoza
+o DarkLabel B4
+o Trojan.Hav-Rat
+o Poison Ivy
+o Rapid Hacker
+o SharK
+o HackerzRat
+o TYO
+o 1337 Fun Trojan
+o Criminal Rat Beta
+o VicSpy
+o Optix PRO
+o ProAgent
+o OD Client
+o AceRat
+o Mhacker-PS
+o RubyRAT Public
+o SINner
+o ConsoleDevil
+o ZombieRat
+o FTP Trojan - TinyFTPD
+o VNC Trojan
+o Webcam Trojan
+o DJI RAT
+o Skiddie Rat
+o Biohazard RAT
+o Troya
+o ProRat
+o Dark Girl
+o DaCryptic
+o Net-Devil
+Classic Trojans Found in the Wild
+o Trojan: Tini
+o Trojan: NetBus
+
+o Trojan: Netcat
+o Netcat Client/Server
+o Netcat Commands
+o Trojan: Beast
+o Trojan: Phatbot
+o Trojan: Amitis
+o Trojan: Senna Spy
+o Trojan: QAZ
+o Trojan: Back Orifi ce
+o Trojan: Back Oriffi ce 2000
+o Back Oriffi ce Plug-ins
+o Trojan: SubSeven
+o Trojan: CyberSpy Telnet Trojan
+o Trojan: Subroot Telnet Trojan
+o Trojan: Let Me Rule! 2.0 BETA 9
+o Trojan: Donald Dick
+o Trojan: RECUB
+Hacking Tool: Loki
+Loki Countermeasures
+Atelier Web Remote Commander
+
+Trojan Horse Construction Kit
+How to Detect Trojans?
+o Netstat
+o fPort
+o TCPView
+Viruses and Worms
+
+
+Virus History
+Characteristics of Virus
+Working of Virus
+o Infection Phase
+o Attack Phase
+Why people create Computer Viruses
+Symptoms of a Virus-like Attack
+Virus Hoaxes
+Chain Letters
+How is a Worm Different from a Virus
+Indications of a Virus Attack
+Hardware Threats
+Software Threats
+Virus Damage
+Mode of Virus Infection
+Stages of Virus Life
+Virus Classifi cation
+How Does a Virus Infect?
+Storage Patterns of Virus
+o System Sector virus
+o Stealth Virus
+o Bootable CD-Rom Virus
+• Self -Modifi cation
+• Encryption with a Variable Key
+o Polymorphic Code
+o Metamorphic Virus
+o Cavity Virus
+o Sparse Infector Virus
+o Companion Virus
+o File Extension Virus
+Famous Virus/Worms – I Love You Virus
+Famous Virus/Worms – Melissa
+Famous Virus/Worms – JS/Spth
+Klez Virus Analysis
+Latest Viruses
+Top 10 Viruses- 2008
+o Virus: Win32.AutoRun.ah
+o Virus:W32/Virut
+o Virus:W32/Divvi
+o Worm.SymbOS.Lasco.a
+o Disk Killer
+o Bad Boy
+o HappyBox
+o Java.StrangeBrew
+o MonteCarlo Family
+o PHP.Neworld
+o W32/WBoy.a
+o ExeBug.d
+o W32/Voterai.worm.e
+o W32/Lecivio.worm
+o W32/Lurka.a
+o W32/Vora.worm!p2p
+Writing a Simple Virus Program
+Virus Construction Kits
+Virus Detection Methods
+Virus Incident Response
+What is Sheep Dip?
+Virus Analysis – IDA Pro Tool
+Prevention is better than Cure
+Anti-Virus Software
+o AVG Antivirus
+o Norton Antivirus
+o McAfee
+o Socketsheild
+o BitDefender
+o ESET Nod32
+o CA Anti-Virus
+o F-Secure Anti-Virus
+o Kaspersky Anti-Virus
+o F-Prot Antivirus
+o Panda Antivirus Platinum
+o avast! Virus Cleaner
+o ClamWin
+o Norman Virus Control
+Popular Anti-Virus Packages
+Virus Databases
+
+Sniffers
+
+
+Defi nition - Sniffi ng
+Protocols Vulnerable to Sniffi ng
+Tool: Network View – Scans the Network for Devices
+The Dude Sniffer
+Wireshark
+Display Filters in Wireshark
+Following the TCP Stream in Wireshark
+Cain and Abel
+Tcpdump
+Tcpdump Commands
+Types of Sniffi ng
+o Passive Sniffi ng
+o Active Sniffi ng
+What is ARP
+o ARP Spoofi ng Attack
+o How does ARP Spoofi ng Work
+o ARP Poising
+o MAC Duplicating
+o MAC Duplicating Attack
+o Tools for ARP Spoofi ng
+• Ettercap
+• ArpSpyX
+o MAC Flooding
+• Tools for MAC Flooding
+Linux Tool: Macof
+Windows Tool: Etherfl ood
+o Threats of ARP Poisoning
+o Irs-Arp Attack Tool
+o ARPWorks Tool
+o Tool: Nemesis
+o IP-based sniffi ng
+Linux Sniffi ng Tools (dsniff package)
+o Linux tool: Arpspoof
+o Linux Tool: Dnssppoof
+o Linux Tool: Dsniff
+o Linux Tool: Filesnarf
+o Linux Tool: Mailsnarf
+o Linux Tool: Msgsnarf
+o Linux Tool: Sshmitm
+o Linux Tool: Tcpkill
+o Linux Tool: Tcpnice
+o Linux Tool: Urlsnarf
+o Linux Tool: Webspy
+o Linux Tool: Webmitm
+DNS Poisoning Techniques
+o Intranet DNS Spoofi ng (Local Network)
+o Internet DNS Spoofi ng (Remote Network)
+o Proxy Server DNS Poisoning
+o DNS Cache Poisoning
+Interactive TCP Relay
+Interactive Replay Attacks
+Raw Sniffi ng Tools
+Features of Raw Sniffi ng Tools
+o HTTP Sniffer: EffeTech
+o Ace Password Sniffer
+o Win Sniffer
+o MSN Sniffer
+o SmartSniff
+o Session Capture Sniffer: NetWitness
+o Session Capture Sniffer: NWreader
+o Packet Crafter Craft Custom TCP/IP Packets
+o SMAC
+o NetSetMan Tool
+o Ntop
+o EtherApe
+o Network Probe
+o Maa Tec Network Analyzer
+o Tool: Snort
+o Tool: Windump
+o Tool: Etherpeek
+o NetIntercept
+o Colasoft EtherLook
+o AW Ports Traffi c Analyzer
+o Colasoft Capsa Network Analyzer
+o CommView
+o Sniffem
+o NetResident
+o IP Sniffer
+o Sniphere
+o IE HTTP Analyzer
+o BillSniff
+o URL Snooper
+o EtherDetect Packet Sniffer
+o EffeTech HTTP Sniffer
+o AnalogX Packetmon
+o Colasoft MSN Monitor
+o IPgrab
+o EtherScan Analyzer
+
+Social Engineering
+
+
+What is Social Engineering?
+Human Weakness
+“Rebecca” and “Jessica”
+Offi ce Workers
+Types of Social Engineering
+o Human-Based Social Engineering
+• Technical Support Example
+• More Social Engineering Examples
+• Human-Based Social Engineering: Eavesdropping
+• Human-Based Social Engineering: Shoulder Surfi ng
+• Human-Based Social Engineering: Dumpster Diving
+• Dumpster Diving Example
+• Oracle Snoops Microsoft’s Trash Bins
+• Movies to Watch for Reverse Engineering
+o Computer Based Social Engineering
+o Insider Attack
+o Disgruntled Employee
+o Preventing Insider Threat
+o Common Targets of Social Engineering
+Social Engineering Threats
+o Online
+o Telephone
+o Personal approaches
+o Defenses Against Social Engineering Threats
+Factors that make Companies Vulnerable to Attacks
+Why is Social Engineering Effective
+Warning Signs of an Attack
+Tool : Netcraft Anti-Phishing Toolbar
+Phases in a Social Engineering Attack
+Behaviors Vulnerable to Attacks
+Impact on the Organization
+Countermeasures
+Policies and Procedures
+Security Policies - Checklist
+
+Denial-of-Service
+
+
+Real World Scenario of DoS Attacks
+What are Denial-of-Service Attacks
+Goal of DoS
+Impact and the Modes of Attack
+Types of Attacks
+DoS Attack Classifi cation
+o Smurf Attack
+o Buffer Overfl ow Attack
+o Ping of Death Attack
+o Teardrop Attack
+o SYN Attack
+o SYN Flooding
+o DoS Attack Tools
+o DoS Tool: Jolt2
+o DoS Tool: Bubonic.c
+o DoS Tool: Land and LaTierra
+o DoS Tool: Targa
+o DoS Tool: Blast
+o DoS Tool: Nemesy
+o DoS Tool: Panther2
+o DoS Tool: Crazy Pinger
+o DoS Tool: SomeTrouble
+o DoS Tool: UDP Flood
+o DoS Tool: FSMax
+Bot (Derived from the Word RoBOT)
+Botnets
+Uses of Botnets
+How Do They Infect? Analysis Of Agabot
+How Do They Infect
+Tool: Nuclear Bot
+What is DDoS Attack
+Characteristics of DDoS Attacks
+DDOS Unstoppable
+Agent Handler Model
+DDoS IRC based Model
+DDoS Attack Taxonomy
+Amplifi cation Attack
+Refl ective DNS Attacks
+Refl ective DNS Attacks Tool: ihateperl.pl
+DDoS Tools
+o DDoS Tool: Trinoo
+o DDoS Tool: Tribal Flood Network
+o DDoS Tool: TFN2K
+o DDoS Tool: Stacheldraht
+o DDoS Tool: Shaft
+o DDoS Tool: Trinity
+o DDoS Tool: Knight and Kaiten
+o DDoS Tool: Mstream
+Worms
+Slammer Worm
+Spread of Slammer Worm – 30 min
+MyDoom.B
+SCO Against MyDoom Worm
+How to Conduct a DDoS Attack
+The Refl ected DoS Attacks
+Refl ection of the Exploit
+Countermeasures for Refl ected DoS
+DDoS Countermeasures
+Taxonomy of DDoS Countermeasures
+Preventing Secondary Victims
+Detect and Neutralize Handlers
+Detect Potential Attacks
+
+Session Hijacking
+
+
+What is Session Hijacking?
+Spoofi ng v Hijacking
+Steps in Session Hijacking
+Types of Session Hijacking
+Session Hijacking Levels
+Network Level Hijacking
+The 3-Way Handshake
+TCP Concepts 3-Way Handshake
+Sequence Numbers
+Sequence Number Prediction
+TCP/IP hijacking
+IP Spoofi ng: Source Routed Packets
+RST Hijacking
+o RST Hijacking Tool: hijack_rst.sh
+Blind Hijacking
+Man in the Middle: Packet Sniffer
+UDP Hijacking
+Application Level Hijacking
+Programs that Performs Session Hacking
+o Juggernaut
+o Hunt
+o TTY-Watcher
+o IP watcher
+o Session Hijacking Tool: T-Sight
+o Remote TCP Session Reset Utility (SOLARWINDS)
+o Paros HTTP Session Hijacking Tool
+o Dnshijacker Tool
+o Hjksuite Tool
+Dangers that hijacking Pose
+Protecting against Session Hijacking
+Countermeasures: IPSec
+
+Hacking Web Servers
+
+
+How Web Servers Work
+How are Web Servers Compromised
+Web Server Defacement
+o How are Servers Defaced
+Apache Vulnerability
+Attacks against IIS
+o IIS Components
+o IIS Directory Traversal (Unicode) Attack
+Unicode
+o Unicode Directory Traversal Vulnerability
+Hacking Tool
+o Hacking Tool: IISxploit.exe
+o Msw3prt IPP Vulnerability
+o RPC DCOM Vulnerability
+o ASP Trojan
+o Network Tool: Log Analyzer
+o Hacking Tool: CleanIISLog
+o ServerMask ip100
+o Tool: CacheRight
+o Tool: CustomError
+o Tool: HttpZip
+o Tool: LinkDeny
+o Tool: ServerDefender AI
+o Tool: ZipEnable
+o Tool: w3compiler
+o Yersinia
+Tool: MPack
+Tool: Neosploit
+Hotfi xes and Patches
+What is Patch Management
+Patch Management Checklist
+o Solution: UpdateExpert
+o Patch Management Tool: qfecheck
+o Patch Management Tool: HFNetChk
+o cacls.exe utility
+o Shavlik NetChk Protect
+o Kaseya Patch Management
+o IBM Tivoli Confi guration Manager
+o LANDesk Patch Manager
+o BMC Patch Manager
+o Confi gureSoft Enterprise Confi guration Manager (ECM)
+o BladeLogic Confi guration Manager
+o Opsware Server Automation System (SAS)
+o Best Practices for Patch Management
+Vulnerability Scanners
+Online Vulnerability Search Engine
+Network Tool: Whisker
+Network Tool: N-Stealth HTTP Vulnerability Scanner
+Hacking Tool: WebInspect
+Network Tool: Shadow Security Scanner
+Secure IIS
+o ServersCheck Monitoring
+o GFI Network Server Monitor
+o Servers Alive
+o Webserver Stress Tool
+
+Web-Based Password Cracking Techniques
+
+
+Authentication - Defi nition
+Authentication Mechanisms
+o HTTP Authentication
+• Basic Authentication
+• Digest Authentication
+o Integrated Windows (NTLM) Authentication
+o Negotiate Authentication
+o Certifi cate-based Authentication
+o Forms-based Authentication
+o RSA SecurID Token
+o Biometrics Authentication
+• Types of Biometrics Authentication
+Fingerprint-based Identifi cation
+Hand Geometry- based Identifi cation
+Retina Scanning
+Face Recognition
+Face Code: WebCam Based Biometrics Authentication System
+Bill Gates at the RSA Conference 2006
+How to Select a Good Password
+Things to Avoid in Passwords
+Changing Your Password
+Protecting Your Password
+Examples of Bad Passwords
+The “Mary Had A Little Lamb” Formula
+How Hackers Get Hold of Passwords
+Windows XP: Remove Saved Passwords
+What is a Password Cracker
+Modus Operandi of an Attacker Using a Password Cracker
+How Does a Password Cracker Work
+Attacks - Classifi cation
+o Password Guessing
+o Query String
+o Cookies
+o Dictionary Maker
+Password Crackers Available
+o L0phtCrack (LC4)
+o John the Ripper
+o Brutus
+o ObiWaN
+o Authforce
+o Hydra
+o Cain & Abel
+o RAR
+o Gammaprog
+o WebCracker
+o Munga Bunga
+o PassList
+o SnadBoy
+o MessenPass
+o Wireless WEP Key Password Spy
+o RockXP
+o Password Spectator Pro
+o Passwordstate
+o Atomic Mailbox Password Cracker
+o Advanced Mailbox Password Recovery (AMBPR)
+o Tool: Network Password Recovery
+o Tool: Mail PassView
+o Tool: Messenger Key
+o Tool: SniffPass
+o WebPassword
+o Password Administrator
+o Password Safe
+o Easy Web Password
+o PassReminder
+o My Password Manager
+
+SQL Injection
+
+
+What is SQL Injection
+Exploiting Web Applications
+Steps for performing SQL injection
+What You Should Look For
+What If It Doesn’t Take Input
+OLE DB Errors
+Input Validation Attack
+SQL injection Techniques
+How to Test for SQL Injection Vulnerability
+How Does It Work
+BadLogin.aspx.cs
+BadProductList.aspx.cs
+Executing Operating System Commands
+Getting Output of SQL Query
+Getting Data from the Database Using ODBC Error Message
+How to Mine all Column Names of a Table
+How to Retrieve any Data
+How to Update/Insert Data into Database
+SQL Injection in Oracle
+SQL Injection in MySql Database
+Attacking Against SQL Servers
+SQL Server Resolution Service (SSRS)
+Osql -L Probing
+SQL Injection Automated Tools
+Automated SQL Injection Tool: AutoMagic SQL
+Absinthe Automated SQL Injection Tool
+o Hacking Tool: SQLDict
+o Hacking Tool: SQLExec
+o SQL Server Password Auditing Tool: sqlbf
+o Hacking Tool: SQLSmack
+o Hacking Tool: SQL2.exe
+o sqlmap
+o sqlninja
+o SQLIer
+o Automagic SQL Injector
+Blind SQL Injection
+o Blind SQL Injection: Countermeasure
+o Blind SQL Injection Schema
+SQL Injection Countermeasures
+Preventing SQL Injection Attacks
+GoodLogin.aspx.cs
+SQL Injection Blocking Tool: SQL Block
+Acunetix Web Vulnerability Scanner
+
+Hacking Wireless Networks
+
+
+Introduction to Wireless
+o Introduction to Wireless Networking
+o Wired Network vs. Wireless Network
+o Effects of Wireless Attacks on Business
+o Types of Wireless Network
+o Advantages and Disadvantages of a Wireless Network
+Wireless Standards
+o Wireless Standard: 802.11a
+o Wireless Standard: 802.11b – “WiFi”
+o Wireless Standard: 802.11g
+o Wireless Standard: 802.11i
+o Wireless Standard: 802.11n
+Wireless Concepts and Devices
+o Related Technology and Carrier Networks
+o Antennas
+o Wireless Access Points
+o SSID
+o Beacon Frames
+o Is the SSID a Secret
+o Setting up a WLAN
+o Authentication and Association
+o Authentication Modes
+o The 802.1X Authentication Process
+WEP and WPA
+o Wired Equivalent Privacy (WEP)
+o WEP Issues
+o WEP - Authentication Phase
+o WEP - Shared Key Authentication
+o WEP - Association Phase
+o WEP Flaws
+o What is WPA
+o WPA Vulnerabilities
+o WEP, WPA, and WPA2
+o WPA2 Wi-Fi Protected Access 2
+Attacks and Hacking Tools
+o Terminologies
+o WarChalking
+o Authentication and (Dis) Association Attacks
+o WEP Attack
+o Cracking WEP
+o Weak Keys (a.k.a. Weak IVs)
+o Problems with WEP’s Key Stream and Reuse
+o Automated WEP Crackers
+o Pad-Collection Attacks
+o XOR Encryption
+o Stream Cipher
+o WEP Tool: Aircrack
+o Aircrack-ng
+o WEP Tool: AirSnort
+o WEP Tool: WEPCrack
+o WEP Tool: WepLab
+o Attacking WPA Encrypted Networks
+o Attacking WEP with WEPCrack on Windows using Cygwin
+o Attacking WEP with WEPCrack on Windows using PERL Interpreter
+o Tool: Wepdecrypt
+o WPA-PSK Cracking Tool: CowPatty
+o 802.11 Specifi c Vulnerabilities
+o Evil Twin: Attack
+o Rogue Access Points
+o Tools to Generate Rogue Access Points: Fake AP
+o Tools to Detect Rogue Access Points: Netstumbler
+o Tools to Detect Rogue Access Points: MiniStumbler
+o ClassicStumbler
+o AirFart
+o AP Radar
+o Hotspotter
+o Cloaked Access Point
+o WarDriving Tool: shtumble
+o Temporal Key Integrity Protocol (TKIP)
+o LEAP: The Lightweight Extensible Authentication Protocol
+o LEAP Attacks
+o LEAP Attack Tool: ASLEAP
+o Working of ASLEAP
+o MAC Sniffi ng and AP Spoofi ng
+o Defeating MAC Address Filtering in Windows
+o Manually Changing the MAC Address in Windows XP and 2000
+o Tool to Detect MAC Address Spoofi ng: Wellenreiter
+o Man-in-the-Middle Attack (MITM)
+o Denial-of-Service Attacks
+o DoS Attack Tool: Fatajack
+o Hijacking and Modifying a Wireless Network
+o Phone Jammers
+o Phone Jammer: Mobile Blocker
+o Pocket Cellular Style Cell Phone Jammer
+o 2.4Ghz Wi-Fi & Wireless Camera Jammer
+o 3 Watt Digital Cell Phone Jammer
+o 3 Watt Quad Band Digital Cellular Mobile Phone Jammer
+o 20W Quad Band Digital Cellular Mobile Phone Jammer
+o 40W Digital Cellular Mobile Phone Jammer
+o Detecting a Wireless Network
+Scanning Tools
+o Scanning Tool: Kismet
+o Scanning Tool: Prismstumbler
+o Scanning Tool: MacStumbler
+o Scanning Tool: Mognet V1.16
+o Scanning Tool: WaveStumbler
+o Scanning Tool: Netchaser V1.0 for Palm Tops
+o Scanning Tool: AP Scanner
+o Scanning Tool: Wavemon
+o Scanning Tool: Wireless Security Auditor (WSA)
+o Scanning Tool: AirTraf
+o Scanning Tool: WiFi Finder
+o Scanning Tool: Wifi Scanner
+o eEye Retina WiFI
+o Simple Wireless Scanner
+o wlanScanner
+Sniffi ng Tools
+o Sniffi ng Tool: AiroPeek
+o Sniffi ng Tool: NAI Wireless Sniffer
+o MAC Sniffi ng Tool: WireShark
+o Sniffi ng Tool: vxSniffer
+o Sniffi ng Tool: Etherpeg
+o Sniffi ng Tool: Drifnet
+o Sniffi ng Tool: AirMagnet
+o Sniffi ng Tool: WinDump
+o Sniffi ng Tool: Ssidsniff
+o Multiuse Tool: THC-RUT
+o Tool: WinPcap
+o Tool: AirPcap
+o AirPcap: Example Program from the Developer’s Pack
+Hacking Wireless Networks
+o Steps for Hacking Wireless Networks
+o Step 1: Find Networks to Attack
+o Step 2: Choose the Network to Attack
+o Step 3: Analyzing the Network
+o Step 4: Cracking the WEP Key
+o Step 5: Sniffi ng the Network
+Wireless Security
+o WIDZ: Wireless Intrusion Detection System
+o Radius: Used as Additional Layer in Security
+o Securing Wireless Networks
+o Wireless Network Security Checklist
+o WLAN Security: Passphrase
+o Don’ts in Wireless Security
+Wireless Security Tools
+o WLAN Diagnostic Tool: CommView for WiFi PPC
+o WLAN Diagnostic Tool: AirMagnet Handheld Analyzer
+
+Linux Hacking
+
+
+Why Linux
+Linux Distributions
+Linux Live CD-ROMs
+Basic Commands of Linux: Files & Directories
+Linux Basic
+o Linux File Structure
+o Linux Networking Commands
+Directories in Linux
+Installing, Confi guring, and Compiling Linux Kernel
+How to Install a Kernel Patch
+Compiling Programs in Linux
+GCC Commands
+Make Files
+Make Install Command
+Linux Vulnerabilities
+Chrooting
+Why is Linux Hacked
+How to Apply Patches to Vulnerable Programs
+Scanning Networks
+Nmap in Linux
+Scanning Tool: Nessus
+Port Scan Detection Tools
+Password Cracking in Linux: Xcrack
+Firewall in Linux: IPTables
+IPTables Command
+Basic Linux Operating System Defense
+SARA (Security Auditor's Research Assistant)
+Linux Tool: Netcat
+Linux Tool: tcpdump
+Linux Tool: Snort
+Linux Tool: SAINT
+Linux Tool: Wireshark
+Linux Tool: Abacus Port Sentry
+Linux Tool: DSniff Collection
+Linux Tool: Hping2
+Linux Tool: Sniffi t
+Linux Tool: Nemesis
+Linux Tool: LSOF
+Linux Tool: IPTraf
+Linux Tool: LIDS
+Hacking Tool: Hunt
+Tool: TCP Wrappers
+Linux Loadable Kernel Modules
+Hacking Tool: Linux Rootkits
+Rootkits: Knark & Torn
+Rootkits: Tuxit, Adore, Ramen
+Rootkit: Beastkit
+Rootkit Countermeasures
+‘chkrootkit’ detects the following Rootkits
+
+Evading IDS, Firewalls and Detecting Honey Pots
+
+
+Introduction to Intrusion Detection System
+Terminologies
+Intrusion Detection System (IDS)
+o IDS Placement
+o Ways to Detect an Intrusion
+o Types of Instruction Detection Systems
+o System Integrity Verifi ers (SIVS)
+o Tripwire
+o Cisco Security Agent (CSA)
+o True/False, Positive/Negative
+o Signature Analysis
+o General Indication of Intrusion: System Indications
+o General Indication of Intrusion: File System Indications
+o General Indication of Intrusion: Network Indications
+o Intrusion Detection Tools
+• Snort
+• Running Snort on Windows 2003
+• Snort Console
+• Testing Snort
+• Confi guring Snort (snort.conf )
+• Snort Rules
+• Set up Snort to Log to the Event Logs and to Run as a Service
+• Using EventTriggers.exe for Eventlog Notifi cations
+• SnortSam
+o Steps to Perform after an IDS detects an attack
+o Evading IDS Systems
+• Ways to Evade IDS
+• Tools to Evade IDS
+IDS Evading Tool: ADMutate
+Packet Generators
+What is a Firewall?
+o What Does a Firewall Do
+o Packet Filtering
+o What can’t a fi rewall do
+o How does a Firewall work
+o Firewall Operations
+o Hardware Firewall
+o Software Firewall
+o Types of Firewall
+• Packet Filtering Firewall
+• IP Packet Filtering Firewall
+• Circuit-Level Gateway
+• TCP Packet Filtering Firewall
+• Application Level Firewall
+• Application Packet Filtering Firewall
+• Stateful Multilayer Inspection Firewall
+o Packet Filtering Firewall
+o Firewall Identifi cation
+o Firewalking
+o Banner Grabbing
+o Breaching Firewalls
+o Bypassing a Firewall using HTTPTunnel
+o Placing Backdoors through Firewalls
+o Hiding Behind a Covert Channel: LOKI
+o Tool: NCovert
+o ACK Tunneling
+
+Common Tool for Testing Firewall and IDS
+o IDS testing tool: IDS Informer
+o IDS Testing Tool: Evasion Gateway
+o IDS Tool: Event Monitoring Enabling Responses to Anomalous Live Disturbances (Emerald)
+o IDS Tool: BlackICE
+o IDS Tool: Next-Generation Intrusion Detection Expert System (NIDES)
+o IDS Tool: SecureHost
+o IDS Tool: Snare
+o IDS Testing Tool: Traffi c IQ Professional
+o IDS Testing Tool: TCPOpera
+o IDS testing tool: Firewall Informer
+o Atelier Web Firewall Tester
+What is Honeypot?
+o The Honeynet Project
+o Types of Honeypots
+Low-interaction honeypot
+Medium-interaction honeypot
+High-interaction honeypot
+o Advantages and Disadvantages of a Honeypot
+o Where to place Honeypots
+o Honeypots
+• Honeypot-SPECTER
+• Honeypot - honeyd
+• Honeypot – KFSensor
+• Sebek
+o Physical and Virtual Honeypots
+Tools to Detect Honeypots
+What to do when hacked
+
+Buffer Overflows
+
+
+Why are Programs/Applications Vulnerable
+Buffer Overfl ows
+Reasons for Buffer Overfl ow Attacks
+Knowledge Required to Program Buffer Overfl ow Exploits
+Understanding Stacks
+Understanding Heaps
+Types of Buffer Overfl ows: Stack-based Buffer Overfl ow
+o A Simple Uncontrolled Overfl ow of the Stack
+o Stack Based Buffer Overfl ows
+Types of Buffer Overfl ows: Heap-based Buffer Overfl ow
+o Heap Memory Buffer Overfl ow Bug
+o Heap-based Buffer Overfl ow
+Understanding Assembly Language
+o Shellcode
+How to Detect Buffer Overfl ows in a Program
+o Attacking a Real Program
+NOPs
+How to Mutate a Buffer Overfl ow Exploit
+Once the Stack is Smashed
+Defense Against Buffer Overfl ows
+o Tool to Defend Buffer Overfl ow: Return Address Defender (RAD)
+o Tool to Defend Buffer Overfl ow: StackGuard
+o Tool to Defend Buffer Overfl ow: Immunix System
+o Vulnerability Search: NIST
+o Valgrind
+o Insure++
+Buffer Overfl ow Protection Solution: Libsafe
+o Comparing Functions of libc and Libsafe
+Simple Buffer Overfl ow in C
+o Code Analysis
+
+Cryptography
+
+
+Introduction to Cryptography
+Classical Cryptographic Techniques
+o Encryption
+o Decryption
+Cryptographic Algorithms
+RSA (Rivest Shamir Adleman)
+o Example of RSA Algorithm
+o RSA Attacks
+o RSA Challenge
+Data Encryption Standard (DES)
+o DES Overview
+RC4, RC5, RC6, Blowfi sh
+o RC5
+Message Digest Functions
+o One-way Bash Functions
+o MD5
+SHA (Secure Hash Algorithm)
+SSL (Secure Sockets Layer)
+What is SSH?
+o SSH (Secure Shell)
+Algorithms and Security
+Disk Encryption
+Government Access to Keys (GAK)
+Digital Signature
+o Components of a Digital Signature
+o Method of Digital Signature Technology
+o Digital Signature Applications
+o Digital Signature Standard
+o Digital Signature Algorithm: Signature Generation/Verifi cation
+o Digital Signature Algorithms: ECDSA, ElGamal Signature Scheme
+o Challenges and Opportunities
+Digital Certifi cates
+CypherCalc
+Command Line Scriptor
+CryptoHeaven
+Hacking Tool: PGP Crack
+Magic Lantern
+Advanced File Encryptor
+Encryption Engine
+Encrypt Files
+Encrypt PDF
+Encrypt Easy
+Encrypt my Folder
+Advanced HTML Encrypt and Password Protect
+Encrypt HTML source
+Alive File Encryption
+Omziff
+ABC CHAOS
+EncryptOnClick
+CryptoForge
+SafeCryptor
+CrypTool
+Microsoft Cryptography Tools
+Polar Crypto Light
+CryptoSafe
+Crypt Edit
+CrypSecure
+Cryptlib
+Crypto++ Library
+Code Breaking: Methodologies
+Cryptanalysis
+Cryptography Attacks
+Brute-Force Attack
+
+Penetration Testing
+
+
+Introduction to Penetration Testing (PT)
+Vulnerability Assessment
+Limitations of Vulnerability Assessment
+Penetration Testing
+Types of Penetration Testing
+Risk Management
+Do-It-Yourself Testing
+Outsourcing Penetration Testing Services
+Terms of Engagement
+Project Scope
+Pentest Service Level Agreements
+Testing points
+Testing Locations
+Automated Testing
+Manual Testing
+Using DNS Domain Name and IP Address Information
+Enumerating Information about Hosts on Publicly Available Networks
+Testing Network-fi ltering Devices
+Enumerating Devices
+Denial-of-Service Emulation
+Pentest using Appscan
+HackerShield
+Pen-Test Using Cerberus Internet Scanner
+Pen-Test Using Cybercop Scanner
+Pen-Test Using FoundScan Hardware Appliances
+Pen-Test Using Nessus
+Pen-Test Using NetRecon
+Pen-Test Using SAINT
+Pen-Test Using SecureNet Pro
+Pen-Test Using SecureScan
+Pen-Test Using SATAN, SARA and Security Analyzer
+Pen-Test Using STAT Analyzer
+Pentest Using VigilENT
+Pentest Using WebInspect
+Pentest Using CredDigger
+Pentest Using Nsauditor
+Evaluating Different Types of Pen-Test Tools
+Asset Audit
+Fault Tree and Attack Trees
+Business Impact of Threat
+Internal Metrics Threat
+External Metrics Threat
+Calculating Relative Criticality
+Test Dependencies
+Defect Tracking Tools: Bug Tracker Server
+Disk Replication Tools
+DNS Zone Transfer Testing Tools
+Network Auditing Tools
+Trace Route Tools and Services
+Network Sniffi ng Tools
+Denial of Service Emulation Tools
+Traditional Load Testing Tools
+System Software Assessment Tools
+Operating System Protection Tools
+Fingerprinting Tools
+Port Scanning Tools
+Directory and File Access Control Tools
+File Share Scanning Tools
+Password Directories
+Password Guessing Tools
+Link Checking Tools
+Web-Testing Based Scripting tools
+Buffer Overfl ow protection Tools
+File Encryption Tools
+Database Assessment Tools
+Keyboard Logging and Screen Reordering Tools
+System Event Logging and Reviewing Tools
+
+Hacking Routers, cable Modems and Firewalls
+
+
+Network Devices
+Identifying a Router
+o SING: Tool for Identifying the Router
+HTTP Confi guration Arbitrary Administrative Access Vulnerability
+ADMsnmp
+Solarwinds MIB Browser
+Brute-Forcing Login Services
+Hydra
+Analyzing the Router Confi g
+Cracking the Enable Password
+Tool: Cain and Abel
+Implications of a Router Attack
+Types of Router Attacks
+Router Attack Topology
+Denial of Service (DoS) Attacks
+Packet “Mistreating” Attacks
+Routing Table Poisoning
+Hit-and-run Attacks vs. Persistent Attacks
+Cisco Router
+o Finding a Cisco Router
+o How to Get into Cisco Router
+o Breaking the Password
+o Is Anyone Here
+o Covering Tracks
+o Looking Around
+Eigrp-tool
+Tool: Zebra
+Tool: Yersinia for HSRP, CDP, and other layer 2 attacks
+Tool: Cisco Torch
+Monitoring SMTP(port25) Using SLcheck
+Monitoring HTTP(port 80)
+Cable Modem Hacking
+
+Read more: http://www.bitshacking.com/forum/tools-equipment/48720-list-hacking-tools.html#ixzz4CtJhw9TY

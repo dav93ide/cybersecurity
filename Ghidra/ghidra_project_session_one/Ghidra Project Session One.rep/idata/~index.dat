@@ -1,0 +1,37 @@
+VERSION=1
+/
+  00000009:SimpleKeyGen:7f011b5699054323770448
+  00000000:c1:7f011923119619236158381
+  00000005:c2:7f0118c9724972040481727
+  00000006:c3:7f01191271280131526861
+  00000007:c4:7f011a7174440668840392
+  00000008:nasm_crack:7f0119bd36555805501106
+  0000000a:skele:7f0119dd79420051454722
+/New Traces
+  00000025:1 - process 109305 - _home_z3r0_Scrivania_All_Ghidra_ghidra_project_session_one_exercises_c1 2022.05.29-13.48.19-CEST:7f0119d4f58646198979319
+  00000026:1 - process 109684 - _home_z3r0_Scrivania_All_Ghidra_ghidra_project_session_one_exercises_c1 2022.05.29-13.49.32-CEST:7f011aab158694294815572
+  00000027:1 - process 109888 - _home_z3r0_Scrivania_All_Ghidra_ghidra_project_session_one_exercises_c1 2022.05.29-13.50.04-CEST:7f011820758699844486446
+  00000028:1 - process 110899 - _home_z3r0_Scrivania_All_Ghidra_ghidra_project_session_one_exercises_c1 2022.05.29-13.53.31-CEST:7f0119a9b58918429887776
+  00000029:1 - process 111579 - _home_z3r0_Scrivania_All_Ghidra_ghidra_project_session_one_exercises_c1 2022.05.29-13.55.18-CEST:7f011a87759094433571114
+  00000011:1 - process 131457 - _home_z3r0_Scrivania_All_Ghidra_ghidra_project_session_one_exercises_c1 2022.05.23-14.02.43-CEST:7f01195bd29230486100921
+  00000012:1 - process 131973 - _home_z3r0_Scrivania_All_Ghidra_ghidra_project_session_one_exercises_c1 2022.05.23-14.04.22-CEST:7f011b04f29269850533765
+  00000013:1 - process 132445 - _home_z3r0_Scrivania_All_Ghidra_ghidra_project_session_one_exercises_c1 2022.05.23-14.06.01-CEST:7f011b3eb29392276135650
+  00000014:1 - process 132631 - _home_z3r0_Scrivania_All_Ghidra_ghidra_project_session_one_exercises_c1 2022.05.23-14.06.37-CEST:7f01184b529401939150405
+  00000015:1 - process 132690 - _home_z3r0_Scrivania_All_Ghidra_ghidra_project_session_one_exercises_c1 2022.05.23-14.06.46-CEST:7f011916d29415125680510
+  00000016:1 - process 133104 - _home_z3r0_Scrivania_All_Ghidra_ghidra_project_session_one_exercises_c1 2022.05.23-14.08.08-CEST:7f01198c329492803675503
+  00000017:1 - process 133213 - _home_z3r0_Scrivania_All_Ghidra_ghidra_project_session_one_exercises_c1 2022.05.23-14.08.27-CEST:7f011a93929515831169436
+  00000018:1 - process 133349 - _home_z3r0_Scrivania_All_Ghidra_ghidra_project_session_one_exercises_c1 2022.05.23-14.08.55-CEST:7f01181dd29537474360416
+  00000019:1 - process 133666 - _home_z3r0_Scrivania_All_Ghidra_ghidra_project_session_one_exercises_c1 2022.05.23-14.09.47-CEST:7f011909529614642888526
+  0000001a:1 - process 133828 - _home_z3r0_Scrivania_All_Ghidra_ghidra_project_session_one_exercises_c1 2022.05.23-14.10.18-CEST:7f011aa8129722689446368
+  0000001b:1 - process 134360 - _home_z3r0_Scrivania_All_Ghidra_ghidra_project_session_one_exercises_c1 2022.05.23-14.12.08-CEST:7f0118d1d29761967059680
+  0000001c:1 - process 134601 - _home_z3r0_Scrivania_All_Ghidra_ghidra_project_session_one_exercises_c1 2022.05.23-14.12.48-CEST:7f01187d729775423465059
+  0000001d:1 - process 134662 - _home_z3r0_Scrivania_All_Ghidra_ghidra_project_session_one_exercises_c1 2022.05.23-14.12.59-CEST:7f0119aaf29803182725378
+  0000001e:1 - process 134867 - _home_z3r0_Scrivania_All_Ghidra_ghidra_project_session_one_exercises_c1 2022.05.23-14.13.29-CEST:7f011a50f29835179512736
+  0000001f:1 - process 166615 - _home_z3r0_Scrivania_All_Ghidra_ghidra_project_session_one_exercises_c1 2022.05.23-14.58.36-CEST:7f01197c932579087008238
+  00000020:1 - process 167141 - _home_z3r0_Scrivania_All_Ghidra_ghidra_project_session_one_exercises_c1 2022.05.23-15.00.34-CEST:7f011a60b32689829299030
+  00000021:1 - process 170902 - _home_z3r0_Scrivania_All_Ghidra_ghidra_project_session_one_exercises_c1 2022.05.23-15.13.52-CEST:7f011a6d333612010737450
+  00000022:1 - process 172095 - _home_z3r0_Scrivania_All_Ghidra_ghidra_project_session_one_exercises_c1 2022.05.23-15.17.49-CEST:7f011b4a133672940545806
+  00000023:1 - process 183932 - _home_z3r0_Scrivania_All_Ghidra_ghidra_project_session_one_exercises_c1 2022.05.23-16.00.32-CEST:7f0118d1d36237778543212
+  00000024:1 - process 184101 - _home_z3r0_Scrivania_All_Ghidra_ghidra_project_session_one_exercises_c1 2022.05.23-16.00.53-CEST:7f011b27d36452273106686
+NEXT-ID:2a
+MD5:d41d8cd98f00b204e9800998ecf8427e

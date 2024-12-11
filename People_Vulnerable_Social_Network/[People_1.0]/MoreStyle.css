@@ -1,0 +1,26 @@
+#menuButton{
+	border:none;
+	background:none;
+	color:#0F0;
+}
+
+#menuButton:hover{
+	color:#F0F;
+}
+
+.divOptions{
+	border-radius:30px;
+	position:absolute;
+	top:25%;
+	left:5%;
+	right:5%;
+	bottom:25%;
+	background-color: #48A;
+}
+
+#optionsSubmitButton{
+	border:none;
+	background-color:black;
+	color:white;
+	border-radius: 15px;
+}

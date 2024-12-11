@@ -1,0 +1,2 @@
+IADD:00000000:/shellcode2.exe
+IDSET:/shellcode2.exe:7f0119e094451395174398

@@ -1,0 +1,7 @@
+
+
+[ WinMain ]
+https://docs.microsoft.com/en-us/windows/win32/learnwin32/winmain--the-application-entry-point
+
+[ GetDlgItemText ]
+https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getdlgitemtexta

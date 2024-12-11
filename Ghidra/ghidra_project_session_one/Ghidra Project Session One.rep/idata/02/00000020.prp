@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FILE_INFO>
+    <BASIC_INFO>
+        <STATE NAME="CONTENT_TYPE" TYPE="string" VALUE="Trace" />
+        <STATE NAME="PARENT" TYPE="string" VALUE="/New Traces" />
+        <STATE NAME="FILE_ID" TYPE="string" VALUE="7f011a60b32689829299030" />
+        <STATE NAME="FILE_TYPE" TYPE="int" VALUE="0" />
+        <STATE NAME="READ_ONLY" TYPE="boolean" VALUE="false" />
+        <STATE NAME="NAME" TYPE="string" VALUE="1 - process 167141 - _home_z3r0_Scrivania_All_Ghidra_ghidra_project_session_one_exercises_c1 2022.05.23-15.00.34-CEST" />
+    </BASIC_INFO>
+</FILE_INFO>

